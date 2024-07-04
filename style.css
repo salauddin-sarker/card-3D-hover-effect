@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+.card {
+  align-items: center;
+  background: #72879f;
+  border-radius: 5px;
+  display: flex;
+  height: 380px;
+  justify-content: center;
+  margin: auto;
+  padding: 20px 10px;
+  transform-style: preserve-3d;
+  width: 300px;
+}
+.card .content{
+  color: #202020;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+.content .user{
+  background: #33ffcf;
+  border: 1px solid #1affc9;
+  border-radius: 50%;
+  height: 100px;
+  margin: auto;
+  transform: translateZ(50px);
+  width: 100px;
+}
+.user .fa-user{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 100px;
+  transform: translateZ(50px);
+}
+.card_head{
+  color: #202020;
+  font-size: 35px;
+  margin: 20px 0;
+  transform: translateZ(50px);
+}
+.follow_us{
+  font-size: 26px;
+  color: #202020;
+  padding-bottom: 15px;
+  transform: translateZ(50px);
+}
+.social_icons{
+  display: flex;
+  gap: 7px;
+  transform: translateZ(50px);
+}
+.social_icons span{
+  background: #1affc9;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 35px;
+}
